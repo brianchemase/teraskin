@@ -16,7 +16,7 @@
           <!-- End Col -->
 
           <div class="col-auto">
-            <a class="btn btn-primary" href="add-user.html">
+            <a class="btn btn-primary" href="add-user">
               <i class="bi-person-plus-fill me-1"></i> Invite users
             </a>
           </div>
