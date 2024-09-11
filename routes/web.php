@@ -69,3 +69,8 @@ Route::get('audit-trail', [PortalSettingController::class, 'auditTrail'])->name(
 Route::get('transaction-rate', [PortalSettingController::class, 'transactionSettings'])->name('portal.transaction_settings');
 Route::get('account-settings', [PortalSettingController::class, 'accountSettings'])->name('portal.account_settings');
 Route::get('key-management', [PortalSettingController::class, 'keyManagement'])->name('portal.key_management');
+
+Route::get('/register', [RegistrationController::class, 'showForm'])->name('register.form');
+
+// Route to handle the form submission
+Route::post('/register', [RegistrationController::class, 'register'])->name('register.submit');

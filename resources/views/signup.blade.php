@@ -147,7 +147,7 @@
         <div class="card card-lg mb-5">
           <div class="card-body">
             <!-- Form -->
-            <form class="js-validate needs-validation" novalidate="">
+            <form action="{{ route('register.submit') }}" method="POST" class="js-validate needs-validation" novalidate="">
               <div class="text-center">
                 <div class="mb-5">
                   <h1 class="display-5">Create your account</h1>
@@ -345,7 +345,7 @@
                   </div>
                 </div>
                 <div class="d-grid gap-2 mt-3">
-                  <a id="submitButton" href="#" class="btn btn-primary btn-lg">Create an account</a>
+                  <a id="submitButton" href="" type="submit" class="btn btn-primary btn-lg">Create an account</a>
               </div>
 
               <!-- <div class="d-grid gap-2 mt-3">
