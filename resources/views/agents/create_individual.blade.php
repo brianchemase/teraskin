@@ -699,9 +699,7 @@
                     <a href="./sole-proprietor.html">Sign up as Sole Proprietor
                       <i class="bi-chevron-right"></i></a>
                   </div> -->
-                  <button type="button" class="btn btn-primary" data-hs-step-form-next-options='{
-                              "targetSelector": "#businessInfo"
-                            }'>
+                  <button type="button" id="nextButton" class="btn btn-primary">
                     Next <i class="bi-chevron-right"></i>
                   </button>
                 </div>
